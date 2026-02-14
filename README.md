@@ -8,7 +8,7 @@
 ## Basic Details
 A gentle, companion-based approach to health management and disease diagnosis discovery.
 
-### Team Name: []
+### Team Name: [warrior]
 
 ### Team Members
 - Member 1: Ameena Nasrin VK - [PPTM ARTS AND SCIENCE COLLEGE]
