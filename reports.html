@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports | Saath</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .back-btn {
+            font-size: 24px;
+            text-decoration: none;
+            color: var(--primary);
+            margin-right: 15px;
+            transition: transform 0.3s;
+            display: inline-block;
+        }
+
+        .back-btn:hover {
+            transform: translateX(-3px);
+        }
+
+        /* Upload Section */
+        .upload-card {
+            background: white;
+            padding: 32px 24px;
+            border-radius: var(--radius-md);
+            text-align: center;
+            box-shadow: var(--shadow);
+            margin-bottom: 40px;
+            border: 2px dashed #f1b5b5;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .upload-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            background: #fffafa;
+        }
+
+        .upload-icon {
+            font-size: 36px;
+            color: var(--primary);
+            margin-bottom: 16px;
+        }
+
+        .upload-text {
+            color: var(--text-light);
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        /* Timeline Section */
+        .timeline {
+            position: relative;
+            padding-left: 24px;
+            border-left: 2px solid #fce4ec;
+            margin-top: 24px;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 32px;
+            padding-left: 24px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -33px;
+            /* Adjusted alignment */
+            top: 10px;
+            width: 12px;
+            height: 12px;
+            background: var(--primary);
+            border-radius: 50%;
+            border: 4px solid var(--bg-color);
+            /* Match background color */
+        }
+
+        .report-card {
+            background: white;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+            transition: transform 0.2s;
+            text-align: left;
+        }
+
+        .report-card:hover {
+            transform: translateX(4px);
+        }
+
+        .report-date {
+            font-size: 13px;
+            color: #aaa;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .report-title {
+            font-size: 18px;
+            color: var(--text-main);
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-family: var(--font-heading);
+        }
+
+        .report-summary {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            background: #fafafa;
+            padding: 12px 16px;
+            border-radius: 12px;
+            margin-top: 12px;
+        }
+
+        .gentle-note {
+            font-style: italic;
+            color: var(--primary);
+            font-size: 13px;
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container" style="text-align: left;">
+        <header style="display: flex; align-items: center; margin-bottom: 30px;">
+            <a href="dashboard.html" class="back-btn">&#8592;</a>
+            <h1 class="title-md" style="margin: 0;">Your health story</h1>
+        </header>
+
+        <!-- Upload Section -->
+        <div class="upload-card float-in delay-1" onclick="alert('Opens camera or file picker softly')">
+            <div class="upload-icon">📷</div>
+            <div class="upload-text">Tap to add a prescription or report. <br> We'll keep it safe.</div>
+        </div>
+
+        <!-- Analyzer / Timeline -->
+        <div class="title-md float-in delay-2" style="font-size: 20px;">Latest Updates</div>
+
+        <div class="timeline float-in delay-3">
+            <!-- Item 1 -->
+            <div class="timeline-item">
+                <div class="report-card">
+                    <div class="report-date">Yesterday, 4:00 PM</div>
+                    <div class="report-title">Blood Test Report</div>
+                    <div class="report-summary">
+                        Everything looks largely normal. Iron levels are just a tiny bit low.
+                        <div class="gentle-note">🌿 A little spinach might help!</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="timeline-item">
+                <div class="report-card">
+                    <div class="report-date">Oct 24, 10:30 AM</div>
+                    <div class="report-title">General Checkup</div>
+                    <div class="report-summary">
+                        Prescription saved. Dr. Sharma suggested rest and hydration.
+                        <div class="gentle-note">💧 Remember to drink water today.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-in delay-4" style="text-align: center; margin-top: 40px; color: #aaa; font-size: 14px;">
+            <span class="serif-italic">Saath walks with you, always.</span>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

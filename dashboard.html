@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Saath</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Dashboard specific overrides if needed, but keeping it clean */
+        .profile-icon {
+            width: 48px;
+            height: 48px;
+            background: #f1b5b5;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-family: var(--font-heading);
+            font-size: 18px;
+        }
+
+        .quote-card {
+            background: #e0f2f1;
+            padding: 24px;
+            border-radius: var(--radius-md);
+            color: #00695c;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 15px;
+            line-height: 1.6;
+            box-shadow: 0 4px 15px rgba(0, 105, 92, 0.1);
+        }
+
+        .card-icon {
+            font-size: 40px;
+            margin-bottom: 16px;
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 4px;
+            font-family: var(--font-heading);
+        }
+
+        .card-desc {
+            font-size: 13px;
+            color: #aaa;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="float-in">
+            <div>
+                <div class="title-md" style="margin-bottom: 4px;">Hello, Friend</div>
+                <div class="subtitle" style="margin-bottom: 0;">How are you feeling today? 🌿</div>
+            </div>
+            <div class="profile-icon">S</div>
+        </header>
+
+        <div class="quote-card float-in delay-1">
+            <span class="serif-italic">"Healing is a matter of time, but it is sometimes also a matter of
+                opportunity."</span>
+        </div>
+
+        <div class="grid float-in delay-2">
+            <a href="reports.html" class="card">
+                <div class="card-icon">📂</div>
+                <div class="card-title">My Reports</div>
+                <div class="card-desc">Store & Analyze</div>
+            </a>
+
+            <a href="appointments.html" class="card">
+                <div class="card-icon">🗓️</div>
+                <div class="card-title">Appointments</div>
+                <div class="card-desc">Visits & Reminders</div>
+            </a>
+
+            <a href="doctors.html" class="card">
+                <div class="card-icon">🩺</div>
+                <div class="card-title">Find Doctors</div>
+                <div class="card-desc">Connect with Care</div>
+            </a>
+
+            <a href="lifestyle.html" class="card">
+                <div class="card-icon">🧘</div>
+                <div class="card-title">Lifestyle</div>
+                <div class="card-desc">Habits & Peace</div>
+            </a>
+        </div>
+
+        <div class="float-in delay-3" style="text-align: center; margin-top: 40px;">
+            <a href="#"
+                style="color: #e57373; font-size: 13px; text-decoration: none; border-bottom: 1px dotted #e57373;">Need
+                urgent help?</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

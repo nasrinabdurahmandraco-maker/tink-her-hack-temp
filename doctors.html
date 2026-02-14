@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Doctors | Saath</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .back-btn {
+            font-size: 24px;
+            text-decoration: none;
+            color: var(--primary);
+            margin-right: 15px;
+            transition: transform 0.3s;
+            display: inline-block;
+        }
+
+        .back-btn:hover {
+            transform: translateX(-3px);
+        }
+
+        /* Search & Filter - keeping specific styles inline or here */
+        .search-bar {
+            width: 100%;
+            padding: 18px 20px;
+            border: none;
+            border-radius: var(--radius-lg);
+            background: white;
+            box-shadow: var(--shadow);
+            font-family: inherit;
+            margin-bottom: 24px;
+            outline: none;
+            box-sizing: border-box;
+            transition: all 0.3s;
+            font-size: 16px;
+            color: var(--text-main);
+        }
+
+        .search-bar:focus {
+            box-shadow: 0 8px 20px rgba(201, 74, 74, 0.15);
+        }
+
+        .filters {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+            margin-bottom: 24px;
+            scrollbar-width: none;
+        }
+
+        .filters::-webkit-scrollbar {
+            display: none;
+        }
+
+        .filter-chip {
+            background: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            color: #666;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .filter-chip.active {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 4px 12px rgba(201, 74, 74, 0.3);
+        }
+
+        .filter-chip:hover:not(.active) {
+            background: #fff0f0;
+            color: var(--primary);
+        }
+
+        /* Doctor List */
+        .doctor-card {
+            background: white;
+            padding: 24px;
+            border-radius: var(--radius-md);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s;
+            border: 1px solid transparent;
+        }
+
+        .doctor-card:hover {
+            transform: translateY(-5px);
+            border-color: #fcebeb;
+        }
+
+        .doc-img {
+            width: 64px;
+            height: 64px;
+            background: #fce4ec;
+            border-radius: 50%;
+            margin-right: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+        }
+
+        .doc-info {
+            flex: 1;
+        }
+
+        .doc-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 6px;
+            font-family: var(--font-heading);
+        }
+
+        .doc-spec {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .doc-tags {
+            display: flex;
+            gap: 6px;
+        }
+
+        .tag {
+            font-size: 12px;
+            padding: 4px 10px;
+            background: #f1f8e9;
+            color: #558b2f;
+            border-radius: 12px;
+        }
+
+        .book-btn {
+            background: transparent;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+            font-weight: 500;
+        }
+
+        .book-btn:hover {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 4px 12px rgba(201, 74, 74, 0.2);
+        }
+
+        /* Disclaimer */
+        .disclaimer {
+            background: #e3f2fd;
+            color: #1565c0;
+            padding: 16px;
+            border-radius: 16px;
+            font-size: 13px;
+            margin-top: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container" style="text-align: left;">
+        <header style="display: flex; align-items: center; margin-bottom: 24px;">
+            <a href="dashboard.html" class="back-btn">&#8592;</a>
+            <div>
+                <h1 class="title-md" style="margin: 0;">Find a Companion</h1>
+            </div>
+        </header>
+
+        <div class="float-in delay-1">
+            <input type="text" class="search-bar" placeholder="Search for specialists, symptoms...">
+
+            <div class="filters">
+                <div class="filter-chip active">All</div>
+                <div class="filter-chip">General Physician</div>
+                <div class="filter-chip">Therapist</div>
+                <div class="filter-chip">Nutritionist</div>
+            </div>
+
+            <div class="disclaimer">
+                <span>ℹ️</span>
+                Doctors diagnose, Saath only assists you in the journey.
+            </div>
+            <br>
+        </div>
+
+        <div class="float-in delay-2">
+            <!-- Doctor 1 -->
+            <div class="doctor-card">
+                <div class="doc-img">👩‍⚕️</div>
+                <div class="doc-info">
+                    <div class="doc-name">Dr. Anjali Sharma</div>
+                    <div class="doc-spec">General Physician • 10 years exp</div>
+                    <div class="doc-tags">
+                        <span class="tag">Kind</span>
+                        <span class="tag">Patient</span>
+                    </div>
+                </div>
+                <a href="appointments.html" class="book-btn">Visit</a>
+            </div>
+
+            <!-- Doctor 2 -->
+            <div class="doctor-card">
+                <div class="doc-img">👨‍⚕️</div>
+                <div class="doc-info">
+                    <div class="doc-name">Dr. Kabir Singh</div>
+                    <div class="doc-spec">Psychologist • 8 years exp</div>
+                    <div class="doc-tags">
+                        <span class="tag">Listener</span>
+                        <span class="tag">Calm</span>
+                    </div>
+                </div>
+                <a href="appointments.html" class="book-btn">Visit</a>
+            </div>
+
+            <!-- Doctor 3 -->
+            <div class="doctor-card">
+                <div class="doc-img">👩‍⚕️</div>
+                <div class="doc-info">
+                    <div class="doc-name">Dr. Priya Desai</div>
+                    <div class="doc-spec">Nutritionist • 5 years exp</div>
+                    <div class="doc-tags">
+                        <span class="tag">Lifestyle</span>
+                    </div>
+                </div>
+                <a href="appointments.html" class="book-btn">Visit</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
