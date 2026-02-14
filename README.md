@@ -69,7 +69,7 @@ Saath bridges the gap between medical utility and emotional well-being. By using
 
 #### Screenshots (Add at least 3)
 
-![Home Screen](https://github.com/nasrinabdurahmandraco-maker/tink-her-hack-temp/blob/main/Screenshot%202026-02-14%20205537.png))
+![Home Screen](https://github.com/nasrinabdurahmandraco-maker/tink-her-hack-temp/blob/main/Screenshot%202026-02-14%20215413.png))
 *The welcoming home screen with the core philosophy.*
 
 ![Dashboard](docs/dashboard.png)
@@ -89,6 +89,7 @@ Saath bridges the gap between medical utility and emotional well-being. By using
 *Add caption explaining your workflow*
 
 ---
+(https://github.com/nasrinabdurahmandraco-maker/tink-her-hack-temp/blob/main/Screenshot%202026-02-14%20215413.png)
 
 ### For Hardware:
 
