@@ -2,27 +2,29 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Saath 🎯
+### Quietly caring, always with you 🌿
 
 ## Basic Details
+A gentle, companion-based approach to health management and disease diagnosis discovery.
 
-### Team Name: [Name]
+### Team Name: [Team Name]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Ameena Nasrin VK - [PPTM ARTS AND SCIENCE COLLEGE]
+- Member 2: Suhaila Nasrin K - [PPTM ARTS AND SCIENCE COLLEGE]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://nasrinabdurahmandraco-maker.github.io/tink-her-hack-temp/
 
 ### Project Description
-[2-3 lines about what your project does]
+Saath is a personal health companion web application designed to make healthcare management less clinical and more human. It acts as a supportive partner ("Saathiya") that helps users manage their medical reports, appointments, and lifestyle habits through a calm, reassuring, and aesthetically pleasing interface.
 
 ### The Problem statement
-[What problem are you solving?]
+Traditional medical applications are often cold, complex, and anxiety-inducing. Patients, especially those dealing with chronic conditions or general health anxiety, feel overwhelmed by clinical jargon, cluttered interfaces, and the stress of managing dispersed health records and appointments. There is a lack of emotional support in digital health tools.
 
 ### The Solution
-[How are you solving it?]
+Saath bridges the gap between medical utility and emotional well-being. By using a "Calm UI" philosophy with soft colors, gentle animations, and conversational language, it reduces health anxiety. It provides a centralized, timeline-based history for reports, a human-centric doctor finder, and gentle lifestyle nudges, making the user feel cared for rather than just "managed."
 
 ---
 
@@ -31,41 +33,25 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- **Languages used:** HTML5, CSS3, JavaScript (Vanilla)
+- **Design System:** Custom "Saathiya" Design System (CSS Variables, Glassmorphism, Animations)
+- **Fonts:** Outfit (Sans-serif) & Playfair Display (Serif)
+- **Tools used:** VS Code, Git
 
 ---
 
 ## Features
 
-List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- **🌿 Warm Onboarding:** A conversational, step-by-step introduction that collects basic health data (Bio, Age, Blood Group) in a non-intrusive way.
+- **📂 Story-based Health Timeline:** display of medical reports and prescriptions arranged as a life story rather than a database list, with clear summaries.
+- **🩺 Compassionate Doctor Discovery:** Find doctors filtered by specialty, emphasizing their human traits (e.g., "Good Listener", "Patient") alongside medical qualifications.
+- **🗓️ Smart Appointments:** Booking system for Online/Offline visits with built-in logic for slot availability and gentle reminders.
+- **🧘 Lifestyle Nudges:** A simple, switch-based tracker for Hydration, Sleep, Nutrition, and Mindfulness, accompanied by daily motivational quotes.
+- **🛡️ Privacy-First Design:** Encourages users to share only what they are comfortable with.
 
 ---
 
 ## Implementation
-
-### For Software:
-
-#### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
-
-#### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
 
 ### For Hardware:
 
@@ -83,21 +69,19 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Home Screen](https://github.com/nasrinabdurahmandraco-maker/tink-her-hack-temp/blob/main/Screenshot%202026-02-14%20205537.png))
+*The welcoming home screen with the core philosophy.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Dashboard](docs/dashboard.png)
+*Central dashboard with quick actions and daily motivation.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Health Timeline](docs/reports.png)
+*Medical history presented as a timeline.*
 
-#### Diagrams
+![Lifestyle](docs/lifestyle.png)
+*Gentle habit tracking and mindfulness.*
 
-**System Architecture:**
-
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+### Diagrams
 
 **Application Workflow:**
 
@@ -399,10 +383,8 @@ If you used AI tools during development, document them here for transparency:
 ---
 
 ## Team Contributions
-
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- **Ameena Nasrin VK**: [Specific contributions, e.g., UI/UX Design, Dashboard Implementation, Lifestyle Module]
+- **Suhaila Nasrin K**: [Specific contributions, e.g., Onboarding Flow, Doctor Search Logic, Report Timeline]
 
 ---
 
