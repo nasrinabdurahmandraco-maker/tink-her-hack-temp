@@ -72,10 +72,10 @@ Saath bridges the gap between medical utility and emotional well-being. By using
 ![Home Screen](https://github.com/nasrinabdurahmandraco-maker/tink-her-hack-temp/blob/main/Screenshot%202026-02-14%20215413.png))
 *The welcoming home screen with the core philosophy.*
 
-![Dashboard]([docs/dashboard.png](https://github.com/nasrinabdurahmandraco-maker/tink-her-hack-temp/blob/main/Screenshot%202026-02-14%20215505.png))
+![Dashboard](https://github.com/nasrinabdurahmandraco-maker/tink-her-hack-temp/blob/main/Screenshot%202026-02-14%20215505.png))
 *Central dashboard with quick actions and daily motivation.*
 
-![Health Timeline]([docs/reports.png](https://github.com/nasrinabdurahmandraco-maker/tink-her-hack-temp/blob/main/Screenshot%202026-02-14%20215505.png))
+![Health Timeline](https://github.com/nasrinabdurahmandraco-maker/tink-her-hack-temp/blob/main/Screenshot%202026-02-14%20215505.png))
 *Medical history presented as a timeline.*
 
  
